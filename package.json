@@ -1,0 +1,29 @@
+{
+  "name": "htm-chef",
+  "version": "0.0.0",
+  "description": "A tiny wrapper of htm and dom-chef for using JSX-like syntax to build DOM without transpile",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.modern.mjs",
+  "scripts": {
+    "build": "microbundle index.js -f es,umd --external none --name html"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "repository": "https://github.com/yuta0801/htm-chef.git",
+  "keywords": [
+    "htm",
+    "jsx",
+    "dom"
+  ],
+  "author": "yuta0801 <yuta20030801@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dom-chef": "^3.6.1",
+    "htm": "^2.2.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.6"
+  }
+}
