@@ -36,5 +36,5 @@ document.body.appendChild(html`<h1>Hello</h1>`)
 **With jQuery:**
 
 ```js
-$('body').appned(html`<h1>Hello</h1>`)
+$('body').append(html`<h1>Hello</h1>`)
 ```
